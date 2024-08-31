@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "source": "./src/index.html",
   "scripts": {
-    "dev": "parcel"
+    "dev": "parcel",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "autoprefixer": "^10.4.20",
     "parcel": "^2.12.0",
     "postcss": "^8.4.41",
+    "postcss-import": "^16.1.0",
     "tailwindcss": "^3.4.10"
   }
 }
