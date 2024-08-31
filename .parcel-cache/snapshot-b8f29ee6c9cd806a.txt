@@ -1,6 +1,4 @@
-8188
-92/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/docs/index.8e55b2fe.css.map1725073687483822014 0
-69/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/docs1725073687483822014 1
+8182
 107/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@isaacs/cliui/build/index.cjs1724988394853544860 0
 110/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@isaacs/cliui/build/lib/index.js1724988394890211467 0
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@isaacs/cliui/build/index.d.cts1724988394860211516 0
@@ -504,7 +502,6 @@
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/regions/NZ.js1724984280047933664 0
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/regions/GL.js1724984279954599733 0
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/regions/ML.js1724984280027933537 0
-87/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/docs/index.0a6a648b.js1725073687483822014 0
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/regions/JE.js1724984279984599927 0
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/regions/SV.js1724984280077933854 0
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/regions/PN.js1724984280057933727 0
@@ -574,7 +571,6 @@
 124/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/features/addeventlistener.js1724984279287928777 0
 116/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/features/promises.js1724984280057933727 0
 117/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/features/png-alpha.js1724984280057933727 0
-88/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/docs/index.8e55b2fe.css1725073687483822014 0
 112/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/features/avif.js1724984279544597095 0
 139/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/features/mdn-css-backdrop-pseudo-element.js1724984280011266765 0
 121/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/caniuse-lite/data/features/tabindex-attr.js1724984280081267209 0
@@ -3466,7 +3462,7 @@
 117/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/tailwindcss/lib/lib/defaultExtractor.js1724988394993544627 0
 97/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/postcss/lib/root.js1724988394940211382 0
 93/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/normalize-range1724988604457159286 1
-64/home/twocarrot10/Documents/programs/npmProjects/personalWebsite1725073687473821814 1
+64/home/twocarrot10/Documents/programs/npmProjects/personalWebsite1725073641942948200 1
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@parcel/utils/src/objectHash.js1724984279761265156 0
 113/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/yaml/dist/schema/yaml-1.1/omap.d.ts1724988395050211202 0
 127/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@babel/highlight/node_modules/ansi-styles/license1724984279154594586 0
@@ -3837,7 +3833,6 @@
 104/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/glob/dist/esm/package.json1724988394940211382 0
 113/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/css-tree/cjs/syntax/node/Number.cjs1724984279691264705 0
 101/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/postcss/lib/document.js1724988394910211433 0
-80/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/docs/index.html1725073687480488614 0
 116/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/cosmiconfig/dist/getDirectory.d.ts.map1724984279404596194 0
 109/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/lru-cache/dist/esm/package.json1724988394930211399 0
 123/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@parcel/runtime-js/src/helpers/cacheLoader.js1724984279414596258 0
@@ -5055,7 +5050,7 @@
 129/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/css-select/node_modules/domutils/lib/esm/feeds.d.ts1724984279507930192 0
 125/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/yaml/browser/dist/stringify/stringifyComment.js1724988395030211234 0
 130/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@parcel/runtime-js/src/helpers/browser/css-loader.js1724984279457929871 0
-77/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/package.json1725073682223717243 0
+77/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/package.json1725073637426199484 0
 112/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@parcel/core/src/RequestTracker.js1724984279897932703 0
 147/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/replace/property/font.js1724984279544597095 0
 107/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@nodelib/fs.stat/out/index.js1724988394910211433 0
@@ -5662,7 +5657,6 @@
 115/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@nodelib/fs.stat/out/types/index.d.ts1724988394930211399 0
 105/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/supports-color/package.json1724984279147927876 0
 139/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/replace/index.js1724984279557930514 0
-91/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/docs/index.0a6a648b.js.map1725073687483822014 0
 118/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/css-tree/cjs/syntax/node/Parentheses.cjs1724984279701264770 0
 155/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/scope/selector.js1724984279774598575 0
 87/home/twocarrot10/Documents/programs/npmProjects/personalWebsite/node_modules/type-fest1724984279327929034 1
