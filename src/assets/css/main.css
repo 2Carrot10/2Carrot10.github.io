@@ -25,7 +25,7 @@
 
 }
 .btn-not-allowed {
-@apply opacity-50 cursor-not-allowed bg-tnblue jetbrains-mono-heavy text-tnbg py-2 px-4 border border-tnblue border-4 rounded shadow
+@apply opacity-50 cursor-not-allowed text-lg bg-tnblue jetbrains-mono-heavy text-tnbg py-2 px-4 border border-tnblue border-4 rounded shadow
 }
 
 
