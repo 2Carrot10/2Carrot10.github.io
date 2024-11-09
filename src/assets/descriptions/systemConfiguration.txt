@@ -1,0 +1,8 @@
+I created a custom desktop environment. This project contains a customized window manager, text editor, shell, and more. I also made a install and download script. These scripts allow me to reach my custom workstation environment from (almost) any linux computer in just a few seconds and a single command: `yes | bash <(curl -s https://raw.githubusercontent.com/2Carrot10/dotfiles/master/download.sh)`.
+
+This project uses the following languages:
+* Lua
+* Python
+* Bash
+
+You can read more about this project on github.

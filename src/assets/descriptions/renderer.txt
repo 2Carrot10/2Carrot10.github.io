@@ -1,0 +1,6 @@
+Semi-real-time renderer that uses global illumination and Monte Carlo ray scattering to create realistic images.
+This renderer is based on concepts I learned in an online lecture series (MIT 6837).
+This renderer uses a GLSL fragment shader to parallelise the rendering presses.
+The image above is based on The Cornell Box. https://www.graphics.cornell.edu/online/box/
+
+I wrote this in C++, GLSL, and Bash.
