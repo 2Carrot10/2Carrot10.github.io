@@ -28,6 +28,14 @@
 @apply opacity-50 cursor-not-allowed text-lg bg-tnblue jetbrains-mono-heavy text-tnbg py-2 px-4 border border-tnblue border-4 rounded shadow
 }
 
+.tile {
+
+}
+
+.intro {
+
+}
+
 
 .jetbrains-mono-heavy {
   font-family: "JetBrains Mono", monospace;
