@@ -21,10 +21,14 @@
 }
 
 .btn {
-@apply transition bg-tnfg jetbrains-mono-heavy text-tnbg py-2 px-4 border border-tnfg hover:border-tnbg border-4 rounded shadow text-sm sm:text-lg md:text-xl lg:text-4xl  hover:bg-tnbg duration-300 hover:shadow-w hover:text-tnfg
+@apply transition bg-tnfg jetbrains-mono-heavy text-tnbg py-2 px-4 border border-tnfg hover:border-tnbg border-4 rounded shadow text-sm sm:text-lg md:text-xl lg:text-4xl hover:bg-tnbg duration-300 hover:shadow-w hover:text-tnfg
 
 }
 
+.link {
+	@apply text-tnblue;
+	text-decoration: underline;
+}
 
 .TOC {
 @apply transition bg-tnfg jetbrains-mono-heavy text-tnbg border border-tnfg hover:border-tnbg border-4 rounded shadow text-xl lg:text-4xl hover:bg-tnbg duration-300 hover:shadow-w hover:text-tnfg

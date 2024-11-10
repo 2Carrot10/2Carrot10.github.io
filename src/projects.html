@@ -56,14 +56,14 @@
 
 
 				<!-- tile start-->
-				<a href="projects.html#rayTrace"><div class="h-full m-1"><div class="h-full TOC">
+				<a href="projects.html#raytrace"><div class="h-full m-1"><div class="h-full TOC">
 					<div class="flex justify-center">
 						<img src="./assets/images/raytrace/cornellBox3.png" alt="" class="w-5/6 rounded-lg">
 					</div>
 
 					<div class="text-center jetbrains-mono-heavy">
 						<h class="text-lg">
-							Ray Tracer
+							3D Renderer (Ray Tracing)
 						</h>
 					</div></div></div></a>
 				<!-- tile end -->
@@ -72,7 +72,7 @@
 
 
 				<!-- tile start-->
-				<a href="projects.html#rayTrace"><div class="h-full m-1"><div class="h-full TOC">
+				<a href="projects.html#config"><div class="h-full m-1"><div class="h-full TOC">
 					<div class="flex justify-center">
 						<img src="./assets/images/dotfiles/example2.png" alt="" class="w-5/6 rounded-lg">
 					</div>
@@ -86,7 +86,7 @@
 
 
 				<!-- tile start-->
-				<a href="projects.html#rayTrace"><div class="h-full m-1"><div class="flex-1 h-full TOC">
+				<a href="projects.html#flock"><div class="h-full m-1"><div class="flex-1 h-full TOC">
 					<div class="flex justify-center">
 						<img src="./assets/images/fish/d.png" alt="" class="w-5/6 rounded-lg">
 					</div>
@@ -100,7 +100,7 @@
 
 
 				<!-- tile start-->
-				<a href="projects.html#rayTrace"><div class="h-full m-1"><div class="h-full TOC">
+				<a href="projects.html#aim"><div class="h-full m-1"><div class="h-full TOC">
 					<div class="flex justify-center">
 						<img src="./assets/images/frc/vis.png" alt="" class="w-5/6 rounded-lg">
 					</div>
@@ -114,7 +114,7 @@
 
 
 				<!-- tile start-->
-				<a href="projects.html#rayTrace"><div class="h-full m-1"><div class="h-full TOC">
+				<a href="projects.html#raymarch"><div class="h-full m-1"><div class="h-full TOC">
 					<div class="flex justify-center">
 						<img src="./assets/images/raymarch/wholesFract_001.png" alt="" class="w-5/6 rounded-lg">
 					</div>
@@ -130,7 +130,7 @@
 
 
 				<!-- tile start-->
-				<a href="projects.html#rayTrace"><div class="h-full m-1"><div class="h-full TOC">
+				<a href="projects.html#chess"><div class="h-full m-1"><div class="h-full TOC">
 					<div class="flex justify-center">
 						<img src="./assets/images/chess/landscape.png" alt="" class="w-5/6 rounded-lg">
 					</div>
@@ -153,23 +153,33 @@
 		<br>
 
 		<!--title-->
-		<div id="rayTrace" class="flex justify-end m-2 flex-col-reverse md:flex-row">
+		<div id="raytrace" class="flex justify-end m-2 flex-col-reverse md:flex-row">
 
+			<div class="flex-1">
 			<div class="justify-around flex flex-col">
-				<img src="./assets/images/raytrace/cornellBox.png" alt="" class="m-1 border-solid border-2 border-tnfg rounded-lg">
-				<img src="./assets/images/raytrace/cornellBox3.png" alt="" class="m-1 border-solid border-2 border-tnfg rounded-lg">
+				<img src="./assets/images/raytrace/cornellBox.png" alt="" class="m-1 border-solid border-2 border-tnfg rounded-lg object-contain">
+				<img src="./assets/images/raytrace/cornellBox3.png" alt="" class="m-1 border-solid border-2 border-tnfg rounded-lg object-contain">
+			</div>
 			</div>
 			<div class="flex-none md:w-3/5 flex items-center">
 				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
 
 					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
-						Ray Tracer	
+						3D Renderer (Ray Tracing)	
 					</h1>
-					<a class="m-2 text-tnblue jetbrains-mono-heavy" href="https://github.com/2Carrot10/dotfiles"><i class="nf nf-cod-github"></i> github.com/2Carrot10/dotfiles</a>
+					<u><a class="m-2 text-tnblue jetbrains-mono-heavy" href="https://github.com/2Carrot10/3dRayTrace"><i class="nf nf-cod-github"></i> github.com/2Carrot10/3dRayTrace</a></u>
 					<div class="m-4">
 
 						<p class="text-tnfg jetbrains-mono-heavy">
-							This project contains the main configuration files I use on my computers, as well as an installer and a archinstall config file.
+This is a semi-realtime 3d Renderer. This program renders scenes using ray tracing, a technique where each ray of light is simulated to create realistic shadows, reflections, and textures. This program utilizes a variety of techniques including Monte Carlo ray reflection, GPU acceleration, and global illumination (GI). I designed movement of the camera, and graphics completely from scratch; the libraries I used did not even have the notion of a camera, sphere, plane, or even a 3d position!
+
+
+							<br>
+							<br>
+							The default scene depicts the Cornell Box, a standard scene used to test rendering engines. Notice how light from the walls of the scene cause the large sphere to be partially blue and red. 							<br>
+							<br>
+
+							I designed this program in part thanks to <u><a class="text-tnblue" href="https://youtu.be/-LqUu61oRdk?si=M8RfSPLYUvP-rCRX">Justin Solomon's online lectures</a></u>.
 						</p>
 
 					</div>
@@ -180,7 +190,7 @@
 
 		<!--title-->
 
-		<div class="flex justify-end m-2 flex-col md:flex-row">
+		<div id="flock" class="flex justify-end m-2 flex-col md:flex-row">
 
 			<div class="flex-none md:w-3/5 flex items-center">
 				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
@@ -188,11 +198,11 @@
 					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
 						Flock Simulation
 					</h1>
-					<a class="m-2 text-tnblue jetbrains-mono-heavy" href="https://github.com/2Carrot10/fishsim"><i class="nf nf-cod-github"></i> github.com/2Carrot10/fishSim</a>
+					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/2Carrot10/fishsim"><i class="nf nf-cod-github"></i> github.com/2Carrot10/fishSim</a>
 					<div class="m-4">
 
 						<p class="text-tnfg jetbrains-mono-heavy">
-							This project contains the main configuration files I use on my computers, as well as an installer and a archinstall config file.
+							This projects is a simulation of many agents called "<a class="link" href="https://en.wikipedia.org/wiki/Boids">Boids</a>". While each agent (fish) acts on its own, together, they create emergent behaviors such as swarms and faster responses to hazards and rewards. Each agent intelligently navigates away from <span class="text-red-500">enemies</span>, towards <span class="text-yellow-500">food</span>, and in accordance to the three rules outlined by Craig Reynolds: separation, alignment, and cohesion. To display these behaviors, users can interact with the simulation by placing <span class="text-yellow-500">food</span> and <span class="text-red-500">enemies</span> with the moues. This project is a refined version of the game I made 4 years prior, titled <a class="link" href="https://1024.itch.io/swarm-game">Swarm</a>. This project was made using, C++, Bash, and TKinter.
 						</p>
 
 					</div>
@@ -209,9 +219,11 @@
 
 
 		<!--title-->
-		<div class="flex justify-end m-2 flex-col-reverse md:flex-row">
+		<div id="config" class="flex justify-end m-2 flex-col-reverse md:flex-row">
 
 			<div class="justify-around flex flex-col">
+
+				<img src="./assets/images/dotfiles/example1.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
 				<img src="./assets/images/dotfiles/example2.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
 				<img src="./assets/images/dotfiles/example3.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
 			</div>
@@ -225,7 +237,14 @@
 					<div class="m-4">
 
 						<p class="text-tnfg jetbrains-mono-heavy">
-							This project contains the main configuration files I use on my computers, as well as an installer and a archinstall config file.
+							This project contains the main configuration files I use on my Arch Linux computers, an extensible configuration manager, and a config file to use when installing operating system. 
+							<br><br>
+This project contains configurations for many different programs: AwesomeWM, Neovim, Rofi, Kitty, Bash, and Tmux. One of the most important configurations contained within this project is AwesomeWM (AWM). The AWM configuration is responsible for the layout of taskbars, panels, and widgets; the control of window tiling and titlebars; and many keybinds and motions. 
+							<br><br>
+							The custom configuration manager allows users to install, uninstall, and track configurations using a single command. This makes it easy to store and retrieve configurations on the cloud. The configuration manager provides clear outputs and prompts, allowing the user to accept/veto every command before it is executed.
+							<br><br>
+							The custom download and installation program allows users to download and install the repository with a single command. With this project I can go from a computer with no operating system installed to a computer with my customized user environment in only 40 minutes and 2 commands!
+
 						</p>
 
 					</div>
@@ -235,7 +254,7 @@
 		<!--/title-->
 
 		<br>
-		<div class="flex justify-end m-2 flex-col md:flex-row">
+		<div id="aim" class="flex justify-end m-2 flex-col md:flex-row">
 
 			<div class="flex-none md:w-3/5 flex items-center">
 				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
@@ -243,11 +262,14 @@
 					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
 						Auto Aim
 					</h1>
-					<a class="m-2 text-tnblue jetbrains-mono-heavy" href="https://github.com/2Carrot10/fishsim"><i class="nf nf-cod-github"></i> github.com/2Carrot10/fishSim</a>
+					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/Skunkworks1983/2024Crescendo"><i class="nf nf-cod-github"></i> github.com/Skunkworks1983/2024Crescendo</a>
+
+
+					<a class="m-2 link jetbrains-mono-heavy" href="https://www.desmos.com/3d/16150061ec"><i class="nf nf-md-math_compass"></i> https://www.desmos.com/3d/16150061ec</a>
 					<div class="m-4">
 
 						<p class="text-tnfg jetbrains-mono-heavy">
-							This project contains the main configuration files I use on my computers, as well as an installer and a archinstall config file.
+							As part of FIRST robotics team SkunkWorks Robotics, I led the design of an auto aim algorithm for the 2024 season. .
 						</p>
 
 					</div>
@@ -264,7 +286,7 @@
 
 
 		<!--title-->
-		<div class="flex justify-end m-2 flex-col-reverse md:flex-row">
+		<div id="raymarch" class="flex justify-end m-2 flex-col-reverse md:flex-row">
 
 			<div class="justify-around flex flex-col">
 				<img src="./assets/images/raymarch/wholesFract_001.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
