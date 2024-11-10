@@ -283,10 +283,6 @@ img, video {
   height: 100vh;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-4\/5 {
   width: 80%;
 }
@@ -297,6 +293,10 @@ img, video {
 
 .w-full {
   width: 100%;
+}
+
+.w-4\/6 {
+  width: 66.6667%;
 }
 
 .flex-1 {
@@ -365,10 +365,6 @@ img, video {
 
 .border-2 {
   border-width: 2px;
-}
-
-.border {
-  border-width: 1px;
 }
 
 .border-solid {

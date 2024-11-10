@@ -102,7 +102,7 @@
 				<!-- tile start-->
 				<a href="projects.html#aim"><div class="h-full m-1"><div class="h-full TOC">
 					<div class="flex justify-center">
-						<img src="./assets/images/frc/aim.png" alt="" class="w-5/6 rounded-lg">
+						<img src="./assets/images/frc/aim.png" alt="" class="w-6/7 rounded-lg">
 					</div>
 
 					<div class="text-center jetbrains-mono-heavy">
@@ -279,13 +279,13 @@ This project contains configurations for many different programs: AwesomeWM, Neo
 
 							<div class="m-4">
 						<p class="text-tnfg jetbrains-mono-heavy">
-The Shooter targeting system is an essential part of the functionality of our robot. Instead of driving up to the [base of the goal] to shoot, the shooter targeting system allows the robot to shoot [game pieces] into the [goal] from up to 18 feet away and an angle range of 120°. An intelligent targeting system allows our robot to score points faster, avoid defenders, and stay out of heavily occupied areas. 
+The Shooter targeting system is an essential part of the functionality of our robot. Instead of driving up to the subwoofer [base of the goal] to shoot, the shooter targeting system allows the robot to shoot notes [game pieces] into the speaker [goal] from up to 18 feet away and an angle range of 120°. An intelligent targeting system allows our robot to score points faster, avoid defenders, and stay out of heavily occupied areas. 
 							<br>
 							<br>
-The shooter targeting system aims the pivot of the shooter based on position the robot detects via the visual and mechanical odometry systems. The targeting system locks into place when the robot slows down to ensure the [game piece] is not accidentally imparted with upward or downward acceleration which would cause the robot to miss shot. As soon as the robot starts moving again and the pivot angle is no longer accurate, the command dynamically readjusts to a more accurate rotation. 
+The shooter targeting system aims the pivot of the shooter based on position the robot detects via the visual and mechanical odometry systems. The targeting system locks into place when the robot slows down to ensure the note is not accidentally imparted with upward or downward acceleration which would cause the robot to miss shot. As soon as the robot starts moving again and the pivot angle is no longer accurate, the command dynamically readjusts to a more accurate rotation. 
 							<br>
 							<br>
-The shooter targeting system has undergone massive changes throughout the build season. We have attempted 5 major shooter targeting systems: a complete numerical solution, partial solution using a real time bisection algorithm, linear aim, polynomial curve fit, and inverse distance weighted average. We considered each of these solutions carefully, designing simulations, robot code, and mathematical models before we finally decided to use a polynomial curve fit. 
+The shooter targeting system has undergone massive changes throughout the build season. We have attempted 5 major shooter targeting systems: a complete numerical solution, a partial solution using a real time bisection algorithm, linear aim, polynomial curve fit, and distance weighted average. We considered each of these solutions carefully, designing simulations, robot code, and mathematical models before we finally decided to use a polynomial curve fit. 
 							<br>
 							<br>
 The shooter targeting system employs a polynomial curve fit. We decided to not use theoretical/mathematical approach based on the knowledge we gained from our previous shooter targeting systems: they can take up significant robot processing time, cannot possibly consider all the variation present in the robot, and are less intuitive and thereby more difficult to troubleshoot both in preparation for and during competition. For this reason, our team decided to use an empirically based solution with a precomputed curve to offload Roborio computation time to allow for more important computations. 
@@ -307,6 +307,9 @@ In order to turn the data points into a format that the robot can quickly access
 			<div class="justify-around flex flex-col">
 				<img src="./assets/images/frc/aim.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
 				<img src="./assets/images/frc/mathSolution.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+
+				<img src="./assets/images/frc/robotAction2.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+
 				<img src="./assets/images/frc/shootgraph.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
 			</div>
 		</div>
@@ -324,7 +327,7 @@ In order to turn the data points into a format that the robot can quickly access
 				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
 
 					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
-						Ray Marcher
+						3d Renderer (Ray Marcher)
 					</h1>
 					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/2Carrot10/rayMarchingFractals"><i class="nf nf-cod-github"></i> github.com/2Carrot10/rayMarch</a>
 					<div class="m-4">
