@@ -295,10 +295,6 @@ img, video {
   width: 100%;
 }
 
-.w-4\/6 {
-  width: 66.6667%;
-}
-
 .flex-1 {
   flex: 1;
 }
@@ -396,10 +392,6 @@ img, video {
   --tw-gradient-to: #c0caf5 var(--tw-gradient-to-position);
 }
 
-.fill-tnfg {
-  fill: #c0caf5;
-}
-
 .object-contain {
   object-fit: contain;
 }
@@ -440,11 +432,6 @@ img, video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
 }
 
 .text-lg {

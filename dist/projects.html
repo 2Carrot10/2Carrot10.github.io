@@ -39,7 +39,7 @@
 		<div class="flex justify-center">
 					<div class="w-4/5 md:w-3/5 m-4">
 						<p class="text-tnfg jetbrains-mono-heavy text-lg">
-					I have created various programming projects, including games, applications, visualizations, websites, and command line interfaces. This page lists some of my most interesting project. For more information about each project, click on the links (highlighted in <span class="text-tnblue">blue</span>).
+					I have created various programming projects, including games, applications, visualizations, websites, and command line interfaces. This page lists some of my most interesting project. For more information about each project, click on the links (highlighted in <a href="https://en.wikipedia.org/wiki/Blue" class="link">blue</a>).
 						</p>
 			</div>
 		</div>
@@ -150,17 +150,118 @@
 
 		<br>
 		<hr class="width-2">
+
+		<br>
+
+		<div id="aim" class="flex justify-end m-2 flex-col md:flex-row">
+
+			<div class="flex-none md:w-3/5 flex items-center">
+				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
+
+					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
+						Auto Aim Algorithm (FIRST)
+					</h1>
+					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/Skunkworks1983/2024Crescendo"><i class="nf nf-cod-github"></i> github.com/Skunkworks1983/2024Crescendo/</a>
+
+					<br>
+
+					<a class="m-2 link jetbrains-mono-heavy" href="https://www.desmos.com/3d/16150061ec"><i class="nf nf-md-math_compass"></i> desmos.com/3d/16150061ec/</a>
+
+					<br>
+					<a class="m-2 link jetbrains-mono-heavy" href="https://www.skunkworks1983.com/"><i class="nf nf-cod-home"></i> skunkworks1983.com/</a>
+
+					<div class="m-4">
+
+						<p class="text-tnfg jetbrains-mono-heavy">
+							I have been on FIRST robotics team SkunkWorks Robotics since 2022. During the 2024 season, I led the design and implementation of an auto aim algorithm. I started this project on the day of kickoff and continued refining the algorithm over our final competition. This project alone took over 150 hours of time. Below is an excerpt from the Shooter Targeting System section of the Engineering Notebook, which I wrote (thereby helping win Excellence in Engineering at a District Competition and DCMPs).
+						</p>
+
+							<div class="m-4">
+						<p class="text-tnfg jetbrains-mono-heavy">
+The Shooter targeting system is an essential part of the functionality of our robot. Instead of driving up to the subwoofer [base of the goal] to shoot, the shooter targeting system allows the robot to shoot notes [game pieces] into the speaker [goal] from up to 18 feet away and an angle range of 120°. An intelligent targeting system allows our robot to score points faster, avoid defenders, and stay out of heavily occupied areas. 
+							<br>
+							<br>
+The shooter targeting system aims the pivot of the shooter based on position the robot detects via the visual and mechanical odometry systems. The targeting system locks into place when the robot slows down to ensure the note is not accidentally imparted with upward or downward acceleration which would cause the robot to miss shot. As soon as the robot starts moving again and the pivot angle is no longer accurate, the command dynamically readjusts to a more accurate rotation. 
+							<br>
+							<br>
+The shooter targeting system has undergone massive changes throughout the build season. We have attempted 5 major shooter targeting systems: a complete numerical solution, a partial solution using a real time bisection algorithm, linear aim, polynomial curve fit, and inverse distance weighted average. We considered each of these solutions carefully, designing simulations, robot code, and mathematical models before we finally decided to use a polynomial curve fit. 
+							<br>
+							<br>
+The shooter targeting system employs a polynomial curve fit. We decided to not use theoretical/mathematical approach based on the knowledge we gained from our previous shooter targeting systems: they can take up significant robot processing time, cannot possibly consider all the variation present in the robot, and are less intuitive and thereby more difficult to troubleshoot both in preparation for and during competition. For this reason, our team decided to use an empirically based solution with a precomputed curve to offload Roborio computation time to allow for more important computations. 
+							<br><br>
+
+The polynomial curve is calculated based on 44 viable position-angle combinations. Any incorrect data could negatively influence the performance of the robot in competition, so the position of the robot was measured to sub-centimeter precision and the note trajectory through the speaker was recorded with a high-speed slow-motion camera to pick up on subtle variation that the human eye could not detect. Instead of accepting angles that cause the note to just go into the speaker, we made sure the angle caused the note to go perfectly through the center of the speaker. That way, even if unexpected variation caused the note to go off course, it will most likely still pass through the goal.  
+
+							<br><br>
+
+In order to turn the data points into a format that the robot can quickly access in competition, we used an algorithm to minimize the total sum of squares of the residuals between the data points and polynomial model. This algorithm distilled all our data points into just 10 coefficients. The x and y positions can then be plugged in to get the ideal shooter angle in constant time. 
+
+						</p>
+							</div>
+						<p class="text-tnfg jetbrains-mono-heavy">I built simulations in a variety of languages including JavaScript, Python, and Java. The final algorithm uses Python to find the polynomial curve in advance and Java to calculate the angle based on the polynomial during the match.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="justify-around flex flex-col">
+				<img src="/mathSolution.18725c05.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+
+				<img src="/robotAction2.a9350ddf.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+
+				<img src="/shootgraph.2e164b41.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+			</div>
+		</div>
+		<!--/title-->
+
+		<br>
+<!--title-->
+		<div id="config" class="flex justify-end m-2 flex-col-reverse md:flex-row">
+
+			<div class="justify-around flex flex-col">
+
+				<img src="/example1.ad511ea7.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+				<img src="/example2.29d76400.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+				<img src="/example3.1c63cd70.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+			</div>
+			<div class="flex-none md:w-3/5 flex items-center">
+				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
+
+					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
+						System Configuration (Arch Linux)	
+					</h1>
+					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/2Carrot10/dotfiles"><i class="nf nf-cod-github"></i> github.com/2Carrot10/dotfiles</a>
+					<div class="m-4">
+
+						<p class="text-tnfg jetbrains-mono-heavy">
+							This project contains the main configuration files I use on my Arch Linux computers, an extensible configuration manager, and a config file to automatically install the operating system. This project is one of the largest projects I have made, taking over a hundred hours over the course of 10 months (so far). 
+							<br><br>
+This project contains configurations for many different programs: AwesomeWM, Neovim, Rofi, Kitty, Bash, and Tmux. One of the most important configurations contained within this project is AwesomeWM (AWM). The AWM configuration is responsible for the layout of taskbars, panels, and widgets; the control of window tiling and titlebars; and many keybinds and motions. 
+							<br><br>
+							The custom configuration manager allows users to install, uninstall, and track configurations using a single command. This makes it easy to store and retrieve configurations on the cloud. The configuration manager provides clear outputs and prompts, allowing the user to accept/veto every command before it is executed.
+							<br>
+							<br>
+							<img src="/terminal.a55abb3d.png" class="m-1 object-contain rounded-lg">
+	
+							<br>
+							The custom download program allows users to download and install the repository with a single command. With this project I can go from a computer with no operating system installed to a computer with my customized user environment in only 40 minutes and 2 commands!
+
+						</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/title-->
+
+
+		<br>
+
 		<br>
 
 		<!--title-->
-		<div id="raytrace" class="flex justify-end m-2 flex-col-reverse md:flex-row">
+		<div id="raytrace" class="flex justify-end m-2 flex-col md:flex-row">
 
-			<div class="flex-1">
-			<div class="justify-around flex flex-col">
-				<img src="/cornellBox.31fdd1c8.png" alt="" class="m-1 border-solid border-2 border-tnfg rounded-lg object-contain">
-				<img src="/cornellBox3.5ef7f4eb.png" alt="" class="m-1 border-solid border-2 border-tnfg rounded-lg object-contain">
-			</div>
-			</div>
+			
 			<div class="flex-none md:w-3/5 flex items-center">
 				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
 
@@ -185,9 +286,48 @@ This is a semi-realtime 3D Renderer. This program renders scenes using ray traci
 					</div>
 				</div>
 			</div>
+
+			<div class="justify-around flex flex-col">
+				<img src="/cornellBox.31fdd1c8.png" alt="" class="m-1 border-solid border-2 border-tnfg rounded-lg object-contain">
+				<img src="/cornellBox3.5ef7f4eb.png" alt="" class="m-1 border-solid border-2 border-tnfg rounded-lg object-contain">
+			</div>
 		</div>
 		<!--/title-->
 
+		<br>
+		<!--title-->
+		<div id="raymarch" class="flex justify-end m-2 flex-col-reverse md:flex-row">
+
+			<div class="justify-around flex flex-col">
+				<img src="/wholesFract_001.954dd98d.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+				<img src="/fractNew.b5c0e904.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+				<img src="/example1.1b6b81bd.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
+			</div>
+			<div class="flex-none md:w-3/5 flex items-center">
+				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
+
+					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
+						3d Renderer (Ray Marcher)
+					</h1>
+					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/2Carrot10/rayMarchingFractals"><i class="nf nf-cod-github"></i> github.com/2Carrot10/rayMarch</a>
+					<br>
+					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/2Carrot10/rayMarchingDemo
+"><i class="nf nf-cod-github"></i> github.com/2Carrot10/rayMarchingDemo</a>
+					<div class="m-4">
+
+						<p class="text-tnfg jetbrains-mono-heavy">
+							After designing the Ray Tracing algorithm, I wanted to create a programmatic way to generate surfaces on demand. While this this 3D renderer uses the same camera controls as the Ray Tracing program, instead of calculating collision's between all rays and objects, this algorithm uses a <i>signed distance function</i> to calculate the distance between the current position of the ray and the closest object. This algorithm allows the creation of fractals and repeating geometry. This project is heavily based on the game <a class="link" href="https://github.com/HackerPoet/MarbleMarcher">Marble Marcher</a>.
+							<br>
+							<br>
+							To better understand how this algorithm works, I designed a two dimensional demo. This demo makes it easy to visually ensure that the signed distance function is valid. The demo has helped solve some otherwise puzzling bugs. The concentric rings represent positions of equal distance to the closest object.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/title-->
+
+		<br>
 		<!--title-->
 
 		<div id="flock" class="flex justify-end m-2 flex-col md:flex-row">
@@ -218,128 +358,8 @@ This is a semi-realtime 3D Renderer. This program renders scenes using ray traci
 		<br>
 
 
-		<!--title-->
-		<div id="config" class="flex justify-end m-2 flex-col-reverse md:flex-row">
+				<br>
 
-			<div class="justify-around flex flex-col">
-
-				<img src="/example1.ad511ea7.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
-				<img src="/example2.29d76400.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
-				<img src="/example3.1c63cd70.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
-			</div>
-			<div class="flex-none md:w-3/5 flex items-center">
-				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
-
-					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
-						System Configuration (Arch Linux)	
-					</h1>
-					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/2Carrot10/dotfiles"><i class="nf nf-cod-github"></i> github.com/2Carrot10/dotfiles</a>
-					<div class="m-4">
-
-						<p class="text-tnfg jetbrains-mono-heavy">
-							This project contains the main configuration files I use on my Arch Linux computers, an extensible configuration manager, and a config file to automatically install the operating system. This project is one of the largest projects I have made, taking over a hundred hours over the course of 10 months (so far). 
-							<br><br>
-This project contains configurations for many different programs: AwesomeWM, Neovim, Rofi, Kitty, Bash, and Tmux. One of the most important configurations contained within this project is AwesomeWM (AWM). The AWM configuration is responsible for the layout of taskbars, panels, and widgets; the control of window tiling and titlebars; and many keybinds and motions. 
-							<br><br>
-							The custom configuration manager allows users to install, uninstall, and track configurations using a single command. This makes it easy to store and retrieve configurations stored on cloud. The configuration manager provides clear outputs and prompts, allowing the user to accept/veto every command before it is executed.
-							<br><br>
-							The custom download program allows users to download and install the repository with a single command. With this project I can go from a computer with no operating system installed to a computer with my customized user environment in only 40 minutes and 2 commands!
-
-						</p>
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/title-->
-
-		<br>
-		<div id="aim" class="flex justify-end m-2 flex-col md:flex-row">
-
-			<div class="flex-none md:w-3/5 flex items-center">
-				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
-
-					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
-						Auto Aim Algorithm (FIRST)
-					</h1>
-					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/Skunkworks1983/2024Crescendo"><i class="nf nf-cod-github"></i> github.com/Skunkworks1983/2024Crescendo</a>
-
-					<br>
-
-					<a class="m-2 link jetbrains-mono-heavy" href="https://www.desmos.com/3d/16150061ec"><i class="nf nf-md-math_compass"></i> desmos.com/3d/16150061ec</a>
-
-					<br>
-					<a class="m-2 link jetbrains-mono-heavy" href="https://www.skunkworks1983.com/"><i class="nf nf-cod-home"></i> skunkworks1983.com/</a>
-
-					<div class="m-4">
-
-						<p class="text-tnfg jetbrains-mono-heavy">
-							I have been on FIRST robotics team SkunkWorks Robotics since 2022. During the 2024 season, I led the design and implementation of an auto aim algorithm. Below is an excerpt I wrote for the Engineering Notebook which helped win Excellence in Engineering at a District Competition and DCMPs.
-						</p>
-
-							<div class="m-4">
-						<p class="text-tnfg jetbrains-mono-heavy">
-The Shooter targeting system is an essential part of the functionality of our robot. Instead of driving up to the subwoofer [base of the goal] to shoot, the shooter targeting system allows the robot to shoot notes [game pieces] into the speaker [goal] from up to 18 feet away and an angle range of 120°. An intelligent targeting system allows our robot to score points faster, avoid defenders, and stay out of heavily occupied areas. 
-							<br>
-							<br>
-The shooter targeting system aims the pivot of the shooter based on position the robot detects via the visual and mechanical odometry systems. The targeting system locks into place when the robot slows down to ensure the note is not accidentally imparted with upward or downward acceleration which would cause the robot to miss shot. As soon as the robot starts moving again and the pivot angle is no longer accurate, the command dynamically readjusts to a more accurate rotation. 
-							<br>
-							<br>
-The shooter targeting system has undergone massive changes throughout the build season. We have attempted 5 major shooter targeting systems: a complete numerical solution, a partial solution using a real time bisection algorithm, linear aim, polynomial curve fit, and distance weighted average. We considered each of these solutions carefully, designing simulations, robot code, and mathematical models before we finally decided to use a polynomial curve fit. 
-							<br>
-							<br>
-The shooter targeting system employs a polynomial curve fit. We decided to not use theoretical/mathematical approach based on the knowledge we gained from our previous shooter targeting systems: they can take up significant robot processing time, cannot possibly consider all the variation present in the robot, and are less intuitive and thereby more difficult to troubleshoot both in preparation for and during competition. For this reason, our team decided to use an empirically based solution with a precomputed curve to offload Roborio computation time to allow for more important computations. 
-							<br><br>
-
-The polynomial curve is calculated based on 44 viable position-angle combinations. Any incorrect data could negatively influence the performance of the robot in competition, so the position of the robot was measured to sub-centimeter precision and the note trajectory through the speaker was recorded with a high-speed slow-motion camera to pick up on subtle variation that the human eye could not detect. Instead of accepting angles that cause the note to just go into the speaker, we made sure the angle caused the note to go perfectly through the center of the speaker. That way, even if unexpected variation caused the note to go off course, it will most likely still pass through the goal.  
-
-							<br><br>
-
-In order to turn the data points into a format that the robot can quickly access in competition, we used an algorithm to minimize the total sum of squares of the residuals between the data points and polynomial model. This algorithm distilled all our data points into just 10 coefficients. The x and y positions can then be plugged in to get the ideal shooter angle in constant time. 
-
-						</p>
-							</div>
-
-					</div>
-				</div>
-			</div>
-
-			<div class="justify-around flex flex-col">
-				<img src="/aim.e4dbbb3d.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
-				<img src="/mathSolution.18725c05.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
-
-				<img src="/robotAction2.a9350ddf.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
-
-				<img src="/shootgraph.2e164b41.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
-			</div>
-		</div>
-		<!--/title-->
-		<br>
-
-
-		<!--title-->
-		<div id="raymarch" class="flex justify-end m-2 flex-col-reverse md:flex-row">
-
-			<div class="justify-around flex flex-col">
-				<img src="/wholesFract_001.954dd98d.png" alt="" class="m-1 border-solid border-2 border-tnfg object-contain rounded-lg">
-			</div>
-			<div class="flex-none md:w-3/5 flex items-center">
-				<div class="m-8 border-solid border-2 border-tnfg rounded w-full">
-
-					<h1 class="m-2 text-tnfg text-3xl jetbrains-mono-heavy">
-						3d Renderer (Ray Marcher)
-					</h1>
-					<a class="m-2 link jetbrains-mono-heavy" href="https://github.com/2Carrot10/rayMarchingFractals"><i class="nf nf-cod-github"></i> github.com/2Carrot10/rayMarch</a>
-					<div class="m-4">
-
-						<p class="text-tnfg jetbrains-mono-heavy">
-						</p>
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/title-->
 
 	</body>
 </html>
