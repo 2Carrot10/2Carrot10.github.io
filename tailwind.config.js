@@ -9,6 +9,7 @@ module.exports = {
 				"tnbg": "#1a1b26",
 				"tnfg": "#c0caf5",
 				"tnbgalt": "#414868",
+				"tnbgalt": "#24283b",
 				"tnbgalthigh": "#9aa5ce",
 				"tnhighlight" : "#5a3e8e",
 				// "tnblue" : "#c0caf5"
