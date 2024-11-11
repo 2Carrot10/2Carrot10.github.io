@@ -1,4 +1,4 @@
-8315
+8318
 91/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/landscape.98ba8e28.png1731198626499321077 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/example1.9558f304.png1731265569852858447 0
 87/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/index.13e7bcb3.css1731207799065682009 0
@@ -12,10 +12,11 @@
 91/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/index.d7eee16c.css.map1731129821980814660 0
 91/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/landscape.60577874.png1731216202181806295 0
 85/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/aim.b76dd06b.png1731216202188472860 0
-79/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/about.html1731268697520040516 0
+79/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/about.html1731294013834399559 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/example2.603725de.png1731185380590581780 0
 91/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/index.fccfbd91.css.map1729040616829445293 0
 87/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/index.d84e6962.css1731185381000582460 0
+88/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/circle.2a6105c7.png1731294013634419842 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/example1.3385a3c7.png1731207799065682009 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/fractNew.f3b6027f.png1731265569846191903 0
 91/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/index.6ba80f7e.css.map1731268697523373712 0
@@ -26,10 +27,10 @@
 87/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/index.d7eee16c.css1731129821977481152 0
 97/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/wholesFract_001.877961cb.png1731198627769388374 0
 92/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/shootgraph.4c8f6108.png1731198626766001832 0
-68/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs1731271602752117525 1
+68/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs1731294013837732554 1
 81/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/package-lock.json1731130417042285400 0
 76/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/package.json1731129479050819162 0
-81/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/projects.html1731271536023022270 0
+81/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/projects.html1731293847404199093 0
 85/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/js/main.js1729040616829445293 0
 103/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/raymarch/example1.png1731264302318139988 0
 100/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/raymarch/fract.png1731257593119078008 0
@@ -37,6 +38,7 @@
 110/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/raymarch/wholesFract_001.png1731136886257782589 0
 92/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/fish/c.png1731175800054683837 0
 86/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/fish1731183388024120626 1
+92/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/circle.png1731293813263228699 0
 103/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/dotfiles/terminal.png1731265206195670426 0
 103/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/dotfiles/example2.png1731136855851130639 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/dotfiles1731265230352522281 1
@@ -45,17 +47,17 @@
 100/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/frc/shootgraph.png1731136711754744488 0
 85/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/frc1731217645299805106 1
 89/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images/pfp.png1731217540411509145 0
-81/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images1731217558635160934 1
+81/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/images1731293813259895193 1
 100/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/descriptions/renderer.txt1729542074193419035 0
 100/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/descriptions/chessbot.txt1729542834250764479 0
 111/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/descriptions/systemConfiguration.txt1729542820210662220 0
 87/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/descriptions1729542834250764479 1
 78/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets/css1731206463951358920 1
 74/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/assets1731183176797299974 1
-67/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src1731271536026355558 1
+67/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src1731293885800343392 1
 81/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/postcss.config.js1729040616829445293 0
 85/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/pfp.6abbbca8.png1731217566648629351 0
-79/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/index.html1731268328149729552 0
+79/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/index.html1731293891540146062 0
 92/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/shootgraph.2e164b41.png1731217725897422958 0
 91/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/index.4682b47d.css.map1731267926484991980 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/example1.1b6b81bd.png1731264704468289062 0
@@ -67,9 +69,9 @@
 93/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/cornellBox2.bdac2ffb.png1731191321802079411 0
 93/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/cornellBox3.5ef7f4eb.png1731217566658629518 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/index.e5ac7667.js.map1731217566638629184 0
-79/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/about.html1731219099527699385 0
+79/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/about.html1731293891563478539 0
 83/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/a.7f4b4dac.png1731217566648629351 0
-82/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/projects.html1731271597465523464 0
+82/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/projects.html1731293891543479273 0
 89/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/example.9c2d7e6c.png1731196977302064701 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/example3.1c63cd70.png1731217566595295128 0
 93/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/cornellBox3.478758d3.png1731182980364036209 0
@@ -426,7 +428,7 @@
 98/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@swc/helpers/_/_throw1731129516956046936 1
 112/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@swc/helpers/_/_update/package.json1731129516966045609 0
 99/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@swc/helpers/_/_update1731129516966045609 1
-68/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist1731271597465523464 1
+68/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist1731293891563478539 1
 116/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@swc/helpers/_/_interop_require_default1731129516936049589 1
 120/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@swc/helpers/_/_inherits_loose/package.json1731129516932716697 0
 107/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@swc/helpers/_/_inherits_loose1731129516932716697 1
@@ -949,7 +951,7 @@
 97/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/postcss-js/parser.js1731129516652753837 0
 95/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/postcss-js/LICENSE1731129516612759143 0
 97/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/postcss-js/README.md1731129516696081423 0
-79/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/index.html1731268697520040516 0
+79/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/index.html1731294013834399559 0
 96/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/lilconfig/readme.md1731129516666085402 0
 91/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/lilconfig/dist1731129516679416967 1
 86/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/lilconfig1731129516642755163 1
@@ -2653,6 +2655,7 @@
 96/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/base-x/src/index.js1731129516636089381 0
 101/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/escalade/sync/index.d.ts1731129516716078770 0
 145/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/removeEmptyAttrs.js1731129516872724656 0
+88/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/dist/circle.d1176212.png1731293891526813219 0
 108/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/caniuse-lite/data/regions/YE.js1731129517019371894 0
 119/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/caniuse-lite/data/features/font-kerning.js1731129516976044283 0
 147/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/convertShapeToPath.js1731129516796068158 0
@@ -5321,7 +5324,7 @@
 101/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/shebang-regex/index.d.ts1731129516612759143 0
 90/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/htmlnano/docs1731129516919385133 1
 98/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@parcel/graph/LICENSE1731129516626090708 0
-82/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/projects.html1731271602752117525 0
+82/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/docs/projects.html1731294013837732554 0
 115/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/tailwindcss/lib/util/validateConfig.js1731129516996041630 0
 115/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@parcel/events/test/Disposable.test.js1731129516689415640 0
 100/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/domhandler/package.json1731129516686082749 0
@@ -7828,7 +7831,7 @@
 108/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/htmlnano/lib/modules/custom.cjs1731129516716078770 0
 116/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/htmlnano/lib/modules/removeComments.mjs1731129516916052242 0
 128/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/htmlnano/lib/modules/deduplicateAttributeValues.mjs1731129516909386459 0
-78/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/about.html1731215956045324961 0
+78/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/about.html1731293885797010165 0
 132/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/csso/node_modules/css-tree/cjs/syntax/scope/default.cjs1731129516866058874 0
 100/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/semver/ranges/subset.js1731129516829397071 0
 146/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/pseudo/has.js1731129516902720677 0
@@ -7857,7 +7860,7 @@
 93/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/htmlnano/test.js1731129516822731288 0
 87/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/cssesc/bin1731129516649420946 1
 100/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/htmlnano/docs/README.md1731129516906053568 0
-78/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/index.html1731268328049729779 0
+78/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/src/index.html1731293839827447969 0
 92/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/detect-libc/lib1731129516702747205 1
 104/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/htmlnano/docs/versions.json1731129516889389112 0
 109/home/twocarrot10/Documents/programs/resume/2Carrot10.github.io/node_modules/htmlnano/docs/versioned_sidebars1731129516889389112 1
